@@ -1,0 +1,48 @@
+/* HEADER */
+
+body{overflow: hidden;}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .top-photo > .photo{
+    width: 100%;
+    max-height: 500px;
+}
+
+.header .container-my-photo{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    left: 20px;
+    top: -110px
+}
+
+.header .container-my-photo > .my-photo{
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+}
+
+.header .name {
+    color: #ffffff;
+    font: 40px Helvetica;
+    position: relative;
+    bottom: 51px;
+    left: 251px;
+    width: 580px;
+}
+
+.header .name > .title{
+    color: #ffffff;
+    font: 18px Helvetica;
+}
+
+
