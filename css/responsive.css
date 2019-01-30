@@ -2,12 +2,18 @@
 
 
 
+@media (max-width: 790px){
+    .description > .title-large{
+        margin-left: 70px;
+    }
+}
 @media (max-width: 715px){
     .header .name {
-        font-size: 25px;
+        font-size: 20px;
         bottom: 207px;
-        text-align: center
-        left: 0
+        text-align: center;
+        left: 0;
+        width: 100%;
     }
     .header .name > .title {
         font-size: 13px;
@@ -31,4 +37,27 @@
         left: 5%;
         top: 9px;
     }
+
+    .description > .title-large{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 550px){
+    .header .name{
+        bottom: 186px;
+    }
+}
+
+@media (max-width: 350px){
+    .description > .title-large{
+        font-size: 32px;
+    }
+    .description > .title-large .small{
+        font-size: 38px
+    }
+    .container-my-photo > .name{
+        bottom: 186px;
+    }
+
 }
