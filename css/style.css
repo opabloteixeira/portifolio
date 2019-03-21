@@ -12,18 +12,21 @@
     clear: both;
 }
 
+*{
+    font-family: 'Comfortaa', sans-serif;
+}
+
 /* FIM GENERAL ************************************/
-
-
 
 
 /* HEADER ************************************/
 
 .header .top-photo > .photo{
     width: 100%;
-    max-height: 400px; 
+    max-height: 400px;
+    object-fit: cover;
 }
- 
+
 .header .container-my-photo{
     width: 210px;
     height: 210px;
@@ -32,7 +35,8 @@
     position: absolute;
     left: 20px;
     top: -110px
-}
+} 
+
 
 .header .container-my-photo > .my-photo{
     width: 192px;
@@ -41,27 +45,28 @@
     position: absolute;
     left: 9px;
     top: 9px;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
+    /*-webkit-filter: grayscale(1);
+    filter: grayscale(1);*/
 }
+
 
 .header .name {
     color: #ffffff;
-    font: 40px Helvetica;
+    font-size: 40px; 
     position: absolute;
     bottom: 51px;
     left: 251px;
+    text-shadow: 0px 4px 4px black;
 }
+
 
 .header .name > .title{
     color: #ffffff;
-    font: 18px Helvetica;
+    font-size: 18px;
 }
 
 
 /* FIM HEADER ************************************/
-
-
 
 
 
@@ -75,19 +80,16 @@
     /* background-color: #999999; */
 }
 
-
 .description > .title-large .small{
-    font-family: Helvetica;
     color: #494f55;
     font-size: 60px;
     font-weight: 700;
     line-height: 22px;
-    font-family: Helvetica;
     position: relative;
 }
+
 .description > .title-large{
     position: relative;
-    font-family: Helvetica;
     color: #494f55;
     font-size: 60px;
     font-weight: 300;
@@ -98,19 +100,69 @@
 }
 
 .description .presentation{
-    font-family: Helvetica;
     color: #24272a;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 22px;
     text-align: center;
     width: 80%;
     margin: 0 auto;
     position: relative;
-    margin-top: 52px
+    margin-top: 52px;
+    margin-bottom: 15px;
 }
-.social-icons .icon{ 
-    position: relative;
-    left: 135px;
-    top: 140px;
+
+
+
+
+
+/*************Social Network*************************/
+
+.social-network{ 
+    height: 142px;
+    width: 100%;
+    background-color: #616365;
 } 
+
+/*************End Social Network*************************/
+
+
+/*************Social Network*************************/
+
+.skills{ 
+    height: auto;
+    width: 100%;
+    background-color: #393e42;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.skills > .skill-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.skills > .skill-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    height: auto;
+    width: 100%; 
+}
+
+.skills > .skill-wrap > .skill-item{
+    height: 180px;
+    width: 250px;
+    margin: 10px 5px 10px 5px;
+}
+
+.skills .-skill-item-other{
+    border-left: 4px dotted #ffffff; 
+    border-right: 4px dotted #ffffff; 
+}
+/*************End Social Network*************************/
