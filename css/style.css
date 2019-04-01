@@ -135,6 +135,7 @@
     background-color: #393e42;
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: 30px 14px 30px 0px black;
 } 
 
 .skills > .skill-title{
@@ -155,14 +156,54 @@
     width: 100%; 
 }
 
-.skills > .skill-wrap > .skill-item{
-    height: 180px;
-    width: 250px;
+.skills > .skill-wrap .skill-item{
+    height: 170px;
+    width: 170px;
     margin: 10px 5px 10px 5px;
+    background-color: #616365;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills .-skill-item-other{
     border-left: 4px dotted #ffffff; 
     border-right: 4px dotted #ffffff; 
 }
+
+.skills .skill-box{
+    width: 258px;
+}
+
+.skills .title-item{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.skills .subtitle-item{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500; 
+    margin-bottom: 25px;
+}
 /*************End Social Network*************************/
+
+/*************Works*************************/
+
+
+.works{
+    height: 600px;
+    width: 100%;
+   
+}
+
+
+
+
+/*************End Works*************************/
