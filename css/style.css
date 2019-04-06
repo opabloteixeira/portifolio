@@ -26,6 +26,17 @@
 /* FIM GENERAL ************************************/
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* HEADER ************************************/
 
 .header .top-photo > .photo{
@@ -52,8 +63,14 @@
     position: absolute;
     left: 9px;
     top: 9px;
-    /*-webkit-filter: grayscale(1);
-    filter: grayscale(1);*/
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    z-index: 1;
+}
+
+.header .container-my-photo > .my-photo:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 
@@ -74,6 +91,12 @@
 
 
 /* FIM HEADER ************************************/
+
+
+
+
+
+
 
 
 
@@ -123,6 +146,11 @@
 
 
 
+
+
+
+
+
 /*************Social Network*************************/
 
 .social-network{ 
@@ -134,6 +162,14 @@
 /*************End Social Network*************************/
 
 
+
+
+
+
+
+
+
+
 /*************Social Network*************************/
 
 .skills{ 
@@ -142,10 +178,10 @@
     background-color: #393e42;
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: 10px 1px 9px 5px #272a2d;
+    box-shadow: -1px 1px 9px 5px #272a2d;
 } 
 
-.skills > .skill-title{
+.skills .skill-title{
     text-align: center;
     text-transform: uppercase;
     margin-top: 10px;
@@ -153,7 +189,7 @@
     font-size: 28px;
 }
 
-.skills > .skill-wrap{
+.skills .skill-wrap{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -163,7 +199,7 @@
     width: 100%; 
 }
 
-.skills > .skill-wrap .skill-item{
+.skills .skill-wrap .skill-item{
     height: 170px;
     width: 170px;
     margin: 10px 5px 10px 5px;
@@ -201,6 +237,16 @@
 }
 /*************End Social Network*************************/
 
+
+
+
+
+
+
+
+
+
+
 /*************Works*************************/
 
 
@@ -209,18 +255,42 @@
     width: 100%;
     background-color: #393e42;
     box-shadow: 0px 1px 9px 5px #272a2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.works .wrap-works{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 25px;
 }
 
-
-.works .work{
+.works .box-work{
     width: 220px;
     height: 220px;
+    margin: 20px; 
 }
 
+.works .work{
+    width: 100%;
+    cursor: pointer;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
 
+.works .work:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.works .work-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 28px;
+}
 
 /*************End Works*************************/
