@@ -1,0 +1,26 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Portifólio do Desenvolvedor Pablo Soares Teixeira",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opabloteixeira/portifolio.git"
+  },
+  "keywords": [
+    "portifólio",
+    "projetos"
+  ],
+  "author": "Pablo Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opabloteixeira/portifolio/issues"
+  },
+  "homepage": "https://github.com/opabloteixeira/portifolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
