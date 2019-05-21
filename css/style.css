@@ -112,7 +112,7 @@
 
 .description > .title-large .small{
     color: #494f55;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 22px;
     position: relative;
@@ -121,7 +121,7 @@
 .description > .title-large{
     position: relative;
     color: #494f55;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 22px;
     width: 100%;
